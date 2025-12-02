@@ -132,6 +132,7 @@
     <ClCompile Include="MenuDueño.cpp" />
     <ClCompile Include="usuario.cpp" />
     <ClCompile Include="VerEmpleado.cpp" />
+    <ClCompile Include="ventasSemanalesForms.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="administrador.h">
@@ -173,6 +174,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="ZonaZoo.h" />
+    <ClInclude Include="ventasSemanalesForms.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="administrador.resx">
@@ -202,6 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VerEmpleado.resx">
       <DependentUpon>VerEmpleado.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventasSemanalesForms.resx">
+      <DependentUpon>ventasSemanalesForms.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
